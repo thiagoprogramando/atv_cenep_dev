@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+   <meta charset="utf-8">
+   <input id="textinput" name="textinput" value="" placeholder="Seu nome" type="text">
+   <input id="datainput" name="datainput" value="" placeholder="Data de nascimento" type="text">
+   <button onclick="enviar()">Confirmar</button>
+
+   <script type="text/javascript">
+    function enviar(){
+        var nome = document.getElementById("textinput").value;
+        var data = document.getElementById("datainput").value;
+        document.write(nome);
+    }
+   </script>
+
+ </head>
+</html>
